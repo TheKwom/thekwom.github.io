@@ -5,9 +5,10 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size: 16px; 
+    font-size: 16px;
+    font-family: 'Bad Script', cursive;
     line-height: 32px;
-    font-family: sans-serif; /* Ubuntu, sans-serif */;
+    /*font-family: sans-serif; /* Ubuntu, sans-serif */;*/
     color: #000; /* #xxxxxx */;
 }
 

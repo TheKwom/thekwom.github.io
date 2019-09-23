@@ -29,13 +29,13 @@ header, main, footer {
 }
 header, footer, footer a {
     text-align: center;
-    background-color: lightgreen; /* */;
+    background-color: darkgreen; /* */;
     color: whitesmoke;
     /* Comment */
 }
 
 header img {
-    width: auto; /*  */;
+    width: 150px; /*  */;
     height: auto;
     float: right;
 }

@@ -1,18 +1,13 @@
+/* Tablet */
 @media only screen and (min-width: 37.5em) and (max-width: 58em){
     body {
         text-align: center;
     }
-
-    h1 {
-        color: blueviolet;
-    }
 }
 
+/* Computer */
 @media only screen and (min-width: 58em) {
     body {
         text-align: center;
-    }
-    h1 {
-        color: blueviolet;
     }
 }

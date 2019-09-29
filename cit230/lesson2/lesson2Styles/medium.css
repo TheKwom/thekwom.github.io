@@ -7,3 +7,12 @@
         color: blueviolet;
     }
 }
+
+@media only screen and (min-width: 58em) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        color: blueviolet;
+    }
+}

@@ -4,6 +4,7 @@ section {
     float: left;
     background-color: #91C5D3;
     color: #FAD168;
+    border: 5px red solid;
     border-radius: 15%;
 }
 

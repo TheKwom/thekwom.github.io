@@ -1,21 +1,61 @@
 /* styles */
 
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+main{
+    display: flex;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 section {
     float: left;
-    background-color: #91C5D3;
-    color: #FAD168;
-    border: 5px red solid;
-    border-radius: 15%;
+    width: 30%;
+    margin: 1.6%;
+    background-color: #F9E3BA;
+}
+
+section h1 {
+    background-color: #B6BF95;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: -20px;
+}
+
+section h2 {
+    background-color: #B6BF95;
+    padding: 5%;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -10px;
+}
+section img {
+    width: 70%;
+}
+
+section a {
+    writing-mode: vertical-lr;
+    font-size: 80px;
+    text-decoration: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #3F2912;
+}
+
+section p {
+    background-color: #B6BF95;
 }
 
 p {
     color: black;
-}
-
-img {
-    box-shadow: 10px 10px 5px grey;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 60px;
 }

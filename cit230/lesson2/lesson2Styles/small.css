@@ -2,12 +2,19 @@
 
 section {
     float: left;
+    background-color: #91C5D3;
+    color: #FAD168;
+    border-radius: 15%;
 }
 
 p {
-    color: blue;
+    color: black;
 }
 
 img {
     box-shadow: 10px 10px 5px grey;
+}
+
+.title {
+    font-size: 30px;
 }

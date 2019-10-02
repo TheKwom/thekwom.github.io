@@ -8,6 +8,10 @@ main{
     display: flex;
 }
 
+body {
+    background-color: #F9E3BA;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -54,6 +58,8 @@ p {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .title {

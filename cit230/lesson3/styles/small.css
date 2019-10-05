@@ -1,3 +1,12 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+    border: 2px solid rgb(235, 211, 200);
+}
+
 li {
     float:left;
     margin: 0 5px 10px 5px;
@@ -6,6 +15,12 @@ li {
 
 li a {
     text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .active {

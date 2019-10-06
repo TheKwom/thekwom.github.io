@@ -4,8 +4,24 @@
 section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-ul {
-    flex-direction: row;
-}
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    li {
+        float:left;
+        margin: 0 5px 10px 5px;
+        list-style: none;
+    }
+    
+    li a {
+        text-decoration: none;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }

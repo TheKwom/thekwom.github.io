@@ -30,6 +30,11 @@ section {
 .color-scheme img {
     width: 40em;
 }
+
+.typography {
+    grid-template-columns: 1fr 1fr;
+}
+
 li {
     text-align: center;
     margin: 0;

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 32.5em)
 {
 
-.active {
+    .active {
         background-color: aquamarine;
 }
 
@@ -9,14 +9,30 @@ article {
     border: 2px solid rgb(235, 211, 200);
 }
 
+img {
+    width: 8em;
+}
+
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+.target-audience {
+    grid-template-columns: 1fr 1fr;
+}
+
+.color-scheme {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.color-scheme img {
+    width: 40em;
+}
 li {
-    float:left;
-    margin: 0 5px 10px 5px;
+    text-align: center;
+    margin: 0;
     list-style: none;
 }
 

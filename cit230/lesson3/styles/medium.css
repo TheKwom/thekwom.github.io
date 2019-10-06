@@ -9,14 +9,26 @@ article {
     border: 2px solid rgb(235, 211, 200);
 }
 
+img {
+    width: 8em;
+}
+
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.target-audience {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.color-scheme {
+    grid-template-columns: 1fr;
+}
+
 li {
-    float:left;
-    margin: 0 5px 10px 5px;
+    text-align: center;
+    margin: 0;
     list-style: none;
 }
 

@@ -40,5 +40,7 @@ var month = months[monthNumber];
 // outoput
 currentDateString = weekDay + ', ' + currentDate.getDate() + ' ' + month + ' ' + currentDate.getFullYear;
 
+document.getElementById('currentDate').innerHTML = currentDateString;
+
 // DEBUG;
 console.log(currentDateString);

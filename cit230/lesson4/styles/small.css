@@ -1,0 +1,55 @@
+
+img {
+    width: 65%;
+}
+h1 {
+    font-size: 200%;
+}
+
+nav {
+    grid-template-columns: 1fr;
+    align-content: center;
+    background-color: #44733D;
+    padding: 0.2em;
+    font-size: 100%;
+    text-align: center;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    color: #44733D;
+}
+.motto {
+    grid-column-start: 2;
+    margin-top: -25%;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100%;
+}
+header {
+    padding: 10px;
+    background-color: #BDBEBF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav {
+    grid-template-columns: 1fr;
+    align-content: center; 
+}
+
+

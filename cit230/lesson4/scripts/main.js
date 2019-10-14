@@ -44,3 +44,7 @@ document.getElementById('currentDate').innerHTML = currentDateString;
 
 // DEBUG;
 console.log(currentDateString);
+
+function toggleMenu() {
+	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}

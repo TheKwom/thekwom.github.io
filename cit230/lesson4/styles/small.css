@@ -1,16 +1,31 @@
 
+.active {
+    margin: 2px;
+    background-color: #91BF8A;
+}
+
+body {
+    background-color: #BDBEBF;
+}
 img {
     width: 65%;
 }
 h1 {
-    font-size: 200%;
+    font-size: 200em;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size: 240%;
+    color: #022601;
 }
 
 nav {
     grid-template-columns: 1fr;
     align-content: center;
     background-color: #44733D;
-    padding: 0.2em;
+    padding: 0.1em;
     font-size: 100%;
     text-align: center;
 }
@@ -32,14 +47,24 @@ nav {
 h1 {
     font-family: 'Press Start 2P', monospace;
     color: #44733D;
+    text-align: center;
+    font-size: 200%;
 }
 .motto {
     grid-column-start: 2;
-    margin-top: -25%;
+    margin-top: -20%;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 100%;
 }
+
+.p {
+    border: 2px solid #022601;
+    background-color: #7D848C;
+    margin: 5%;
+    padding: 5%;
+}
+
 header {
     padding: 10px;
     background-color: #BDBEBF;
@@ -49,7 +74,8 @@ header {
 
 nav {
     grid-template-columns: 1fr;
-    align-content: center; 
+    align-content: center;
+    color: #BDBEBF;
 }
 
 

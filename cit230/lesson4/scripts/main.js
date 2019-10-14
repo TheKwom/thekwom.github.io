@@ -27,7 +27,7 @@ var months = [
     'July',
     'August',
     'Spetember',
-    'OCtober',
+    'October',
     'Novemeber',
     'December'
 ];

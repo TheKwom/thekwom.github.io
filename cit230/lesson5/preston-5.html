@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="Page Logo">
+        <h1>Kwomcast</h1>
+        <p class="motto">Looking for a reason to stay in?</p>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston</h2>
+        <!-- ADD HERO IMAGE HERE -->
+
+        <!-- Five-Day Forecast -->
+        <h3>High Temperature Forecast</h3>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th id="day1">Day 1</th>
+                <th id="day2">Day 2</th>
+                <th id="day3">Day 3</th>
+                <th id="day4">Day 4</th>
+                <th id="day5">Day 5</th>
+            </tr>
+            <tr>
+                <td>Forecast</td>
+                <td id="temp1">60&deg;</td>
+                <td id="temp2">68&deg;</td>
+                <td id="temp3">65&deg;</td>
+                <td id="temp4">70&deg;</td>
+                <td id="temp5">62&deg;</td>
+            </tr>
+        </table>
+        <p class="p">Hero w/ Weather Summary</p>
+        <p class="p">5 Day Forecast</p>
+        <p class="p">Article</p>
+        <p class="p">Contact Info</p>
+    </main>
+    <footer>
+        &copy; Kwomcast &vellip; Mike Davis &vellip; <span id="currentDate"></span>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

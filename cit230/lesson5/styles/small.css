@@ -1,0 +1,93 @@
+
+.active {
+    margin: 2px;
+    background-color: #91BF8A;
+}
+
+body {
+    background-color: #BDBEBF;
+}
+
+footer {
+    align-content: center;
+    background-color: #44733D;
+}
+
+img {
+    width: 65%;
+}
+h1 {
+    font-size: 200em;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size: 240%;
+    color: #022601;
+}
+
+nav {
+    grid-template-columns: 1fr;
+    align-content: center;
+    background-color: #44733D;
+    padding: 0.1em;
+    font-size: 100%;
+    text-align: center;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    color: #44733D;
+    text-align: center;
+    font-size: 200%;
+}
+.motto {
+    grid-column-start: 2;
+    margin-top: -20%;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100%;
+}
+
+.p {
+    font-family: 'Source Code Pro', monospace;
+    border: 3px solid #022601;
+    background-color: #7D848C;
+    margin: 1%;
+    padding: 3%;
+}
+
+header {
+    padding: 10px;
+    background-color: #BDBEBF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav {
+    grid-template-columns: 1fr;
+    align-content: center;
+    color: #BDBEBF;
+}
+
+table, th, td {
+    border: 1px solid black;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}

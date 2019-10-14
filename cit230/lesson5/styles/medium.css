@@ -1,0 +1,36 @@
+@media only screen and (min-width: 32.5em)
+{
+    h1 {
+        font-size: 250%;
+        text-align: center;
+    }
+    
+    img {
+        position: absolute;
+        width: 30%;
+    }
+
+    .motto {
+        font-size: 120%;
+        margin-top: -20%
+    }
+
+    nav {
+        grid-template-columns: auto;
+        align-content: center;
+        background-color: #44733D;
+        padding: 0.1em;
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+    }
+}

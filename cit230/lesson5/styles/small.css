@@ -5,12 +5,17 @@
 }
 
 body {
-    background-color: #BDBEBF;
+    background-color: #B0B3B8;
 }
 
 footer {
-    align-content: center;
-    background-color: #44733D;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: #696C70;
+    background-color: #E8BE52;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 1%;
 }
 
 img {
@@ -24,13 +29,17 @@ h2 {
     font-family: 'Source Code Pro', monospace;
     text-align: center;
     font-size: 240%;
-    color: #022601;
+    color: #3A8356;
+}
+    /* class selectors*/
+.hidden {
+    display: none;
 }
 
 nav {
     grid-template-columns: 1fr;
     align-content: center;
-    background-color: #44733D;
+    background-color: #B52E27;
     padding: 0.1em;
     font-size: 100%;
     text-align: center;
@@ -52,7 +61,7 @@ nav {
 
 h1 {
     font-family: 'Press Start 2P', monospace;
-    color: #44733D;
+    color: #20519B;
     text-align: center;
     font-size: 200%;
 }
@@ -67,14 +76,14 @@ h1 {
 .p {
     font-family: 'Source Code Pro', monospace;
     border: 3px solid #022601;
-    background-color: #7D848C;
+    background-color: #B0B3B8;
     margin: 1%;
     padding: 3%;
 }
 
 header {
     padding: 10px;
-    background-color: #BDBEBF;
+    background-color: #B0B3B8;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -82,12 +91,24 @@ header {
 nav {
     grid-template-columns: 1fr;
     align-content: center;
-    color: #BDBEBF;
+    color: #B0B3B8;
 }
 
 table, th, td {
-    border: 1px solid black;
+    font-family: 'Source Code Pro', monospace;
+    border: 2px solid #696C70;
     list-style: none;
     text-align: center;
-    padding: 0;
+    padding: 1px;
 }
+
+
+/* new color scheme (nintendo)
+lightGrey - #B0B3B8
+darkGrey - #696C70
+green - #3A8356
+yellow - #E8BE52
+blue - #20519B
+red - #B52E27 */
+
+/* for small - #forecast {display: none;} */

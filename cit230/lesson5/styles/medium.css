@@ -1,26 +1,7 @@
 @media only screen and (min-width: 32.5em)
 {
-    h1 {
-        font-size: 250%;
-        text-align: center;
-    }
-    
-    img {
-        position: absolute;
-        width: 30%;
-    }
-
-    .motto {
-        font-size: 120%;
-        margin-top: -20%
-    }
-
     nav {
-        grid-template-columns: auto;
-        align-content: center;
-        padding: 0.1em;
-        font-size: 100%;
-        text-align: center;
+        display: flex;
     }
     
     .navigation li:first-child {
@@ -29,10 +10,10 @@
 
     .navigation li {
         display: flex;
-        list-style: none;
-        text-decoration: none;
+        float: left;
+        margin-left: 45px;
     }
-    
+
     table, th, td {
         font-family: 'Source Code Pro', monospace;
         border: 2px solid #696C70;

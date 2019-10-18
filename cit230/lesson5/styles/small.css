@@ -19,10 +19,15 @@ footer {
 }
 
 img {
-    width: 65%;
+    position: absolute;
+    width: 10em;
 }
+
 h1 {
-    font-size: 200em;
+    font-family: 'Press Start 2P', monospace;
+    color: #20519B;
+    font-size: 2em;
+    grid-column-start: 2;
 }
 
 h2 {
@@ -59,18 +64,11 @@ nav {
     display: block;
 }
 
-h1 {
-    font-family: 'Press Start 2P', monospace;
-    color: #20519B;
-    text-align: center;
-    font-size: 200%;
-}
 .motto {
     grid-column-start: 2;
-    margin-top: -20%;
-    text-align: center;
+    margin-top: -2px;
     font-family: 'Source Code Pro', monospace;
-    font-size: 100%;
+    font-size: 1em;
 }
 
 .p {

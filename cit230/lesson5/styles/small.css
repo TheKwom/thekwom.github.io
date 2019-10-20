@@ -1,7 +1,17 @@
+a:link {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: #B0B3B8;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #B0B3B8;
+    text-decoration: none;
+}
 
 .active {
-    margin: 2px;
-    background-color: #91BF8A;
+    color: blue;
 }
 
 body {
@@ -19,22 +29,26 @@ footer {
 }
 
 img {
-    position: absolute;
-    width: 10em;
-}
-
-h1 {
-    font-family: 'Press Start 2P', monospace;
-    color: #20519B;
-    font-size: 2em;
-    grid-column-start: 2;
+    width: 20em;
 }
 
 h2 {
     font-family: 'Source Code Pro', monospace;
+    text-align: right;
+    font-size: 36px;
+    color: #20519B;
+    padding: 10px;
+}
+
+header {
+    background-color: #B0B3B8;
     text-align: center;
-    font-size: 240%;
-    color: #3A8356;
+}
+
+.heroImage {
+    background-image: url("/cit230/lesson5/images/rainyWindow.jpg");
+    background-size: cover;
+    background-position: bottom;
 }
     /* class selectors*/
 .hidden {
@@ -42,33 +56,27 @@ h2 {
 }
 
 nav {
-    grid-template-columns: 1fr;
-    align-content: center;
     background-color: #B52E27;
-    padding: 0.1em;
     font-size: 100%;
     text-align: center;
 }
 
+nav a:hover {
+    color: #20519B;
+}
+
 .navigation li:first-child {
-	display: block;
+    display: block;
 }
 
 .navigation li {
     display: none;
-    list-style: none;
-    text-decoration: none;
+    padding: 15px;
+
 }
 
 .responsive li {
     display: block;
-}
-
-.motto {
-    grid-column-start: 2;
-    margin-top: -2px;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 1em;
 }
 
 .p {
@@ -79,19 +87,31 @@ nav {
     padding: 3%;
 }
 
-header {
-    padding: 10px;
-    background-color: #B0B3B8;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 nav {
-    grid-template-columns: 1fr;
     align-content: center;
     color: #B0B3B8;
 }
 
+.weatherSummary {
+    background-color: rgba(72, 72, 72, 0.6);
+    border-radius: 20px;
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    margin: 14px;
+    width: 250px;
+}
+
+.weatherSummary h4 {
+    border-bottom: 3px solid black;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    padding-left: 4px;
+}
+
+.weatherSummary p {
+    margin-top: -8px;
+    padding-left: 4px;
+}
 table, th, td {
     font-family: 'Source Code Pro', monospace;
     border: 2px solid #696C70;
@@ -107,6 +127,6 @@ darkGrey - #696C70
 green - #3A8356
 yellow - #E8BE52
 blue - #20519B
-red - #B52E27 */
-
+red - #B52E27 
+'Press Start 2P', cursive;*/
 /* for small - #forecast {display: none;} */

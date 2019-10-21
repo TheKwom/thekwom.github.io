@@ -1,5 +1,17 @@
 @media only screen and (min-width: 32.5em)
 {
+    .article {
+        float: left;
+        width: 60%;
+    }
+
+    .contact {
+        float: right;
+        width: 30%;
+    }
+    .hidden {
+        display: inherit;
+    }
     nav {
         display: flex;
     }
@@ -15,8 +27,10 @@
     }
 
     table, th, td {
+        background-color: #696C70;
+        color: #E8BE52;
         font-family: 'Source Code Pro', monospace;
-        border: 2px solid #696C70;
+        border: 2px solid #3A8356;
         list-style: none;
         text-align: center;
         padding: 1px;

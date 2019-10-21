@@ -14,8 +14,27 @@ a:visited {
     color: blue;
 }
 
+.article {
+    background-color: #20519B;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 3px;
+    padding-left: 20px;
+}
+
 body {
     background-color: #B0B3B8;
+}
+
+.contact {
+    background-color: #B52E27;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 1%;
+    padding: 3px;
+    padding-left: 20px;
 }
 
 footer {
@@ -28,6 +47,9 @@ footer {
     padding: 1%;
 }
 
+iframe {
+    width: 100%;
+}
 img {
     width: 20em;
 }
@@ -38,6 +60,10 @@ h2 {
     font-size: 36px;
     color: #20519B;
     padding: 10px;
+}
+
+h4 {
+    font-family: 'Press Start 2P', cursive;;
 }
 
 header {

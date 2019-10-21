@@ -23,7 +23,6 @@
     .navigation li {
         display: flex;
         float: left;
-        margin-left: 45px;
     }
 
     table, th, td {

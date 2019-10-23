@@ -141,6 +141,17 @@ nav {
 }
 
 
+/* ID SELECTORS */
+
+#weatherSummary {
+    background-color: pink;
+    max-width: 200px;
+    padding: 13px;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+}
+
 /* new color scheme (nintendo)
 lightGrey - #B0B3B8
 darkGrey - #696C70

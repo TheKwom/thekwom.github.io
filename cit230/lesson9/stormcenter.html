@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name: </label>
+                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="user@email.com">
+            </div>
+            <div>
+                <label for="phone">Phone Number: </label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipCode" name="zipCode" required>
+            </div>
+            <div>
+                <label for="stormDate">Storm Date:</label>
+                <input type="date" id="stormDate" name="stormDate">
+            </div>
+            <div>
+                <label for="stormType">Storm Type:</label>
+                <input list="stormType">
+                <datalist id="stormType">
+                    <option value="Flash FLood"> 
+                    <option value="Hail">   
+                    <option value="Hurricane">
+                    <option value="Thinderstorm">
+                    <option value="Tornado">
+                </datalist>
+            </div>
+            <div>
+                    <label for="stormSeverity">Storm Severity:</label>
+                    <input type="range" id="stormSeverity" name="stormSeverity" min="1" max="10">
+            </div>
+            <div>
+                <label for="stormRegion">Storm Region:</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="" disabled selected="">Select Region</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Sugar City">Sugar City</option>
+                </select>
+            </div>
+            <div>
+                <span>Are you in danger?</span>
+                <label for="danger">Yes</label>
+                <input type="radio" name="danger">
+                <label for="danger">No</label>
+                <input type="radio" name="danger">
+                <label for="danger">Maybe</label>
+                <input type="radio" name="danger">
+            </div>
+            <div>
+                <label for="comments" class="align-top">Comments:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

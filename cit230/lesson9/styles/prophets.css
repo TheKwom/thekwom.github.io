@@ -10,6 +10,12 @@ body {
     background-color: #D0D9D6;
 }
 
+footer {
+    color: #22403A;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
 h1 {
     color: #22403A;
     font-family: 'Josefin Sans', sans-serif;

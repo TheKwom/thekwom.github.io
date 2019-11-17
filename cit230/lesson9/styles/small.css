@@ -72,13 +72,15 @@ form div {
 iframe {
     width: 100%;
 }
+
 img {
     width: 20em;
-    height: 15em;
+    height: 22em;
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
 }
 h2 {
     background-color: rgba(232,190,82, 0.6);

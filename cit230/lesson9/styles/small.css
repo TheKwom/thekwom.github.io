@@ -37,6 +37,11 @@ body {
     padding-left: 20px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 footer {
     font-family: 'Source Code Pro', monospace;
     text-align: center;

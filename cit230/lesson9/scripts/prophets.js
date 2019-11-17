@@ -5,74 +5,73 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject); // temporary checking for valid response and data parsing
   });
 
 // ES6
 
 fetch(requestURL)
   .then(response => {
-      response.json()
-          .then(
-              response => {
-                  const prophets = response.prophets;
+    response.json()
+      .then(
+        response => {
+          const prophets = response.prophets;
 
-                  prophets.forEach(
-                    (prophet) => {
-                      // DEBUG:
-                      console.log(prophet);
+          prophets.forEach(
+            (prophet) => {
+              // DEBUG:
+              console.log(prophet);
 
-                      let article = document.createElement('article');
-                      let h2 = document.createElement('h2');
+              let article = document.createElement('article');
+              let h2 = document.createElement('h2');
 
-                      h2.textContent = prophet.name + ' ' + prophet.lastname;
-                      
-                      article.appendChild(h2);
+              h2.textContent = prophet.name + ' ' + prophet.lastname;
 
-                      // add date of birth
-                      let birthdateDiv = document.createElement('div');
+              article.appendChild(h2);
 
-                      let birthdateLabel = document.createElement('label');
-                      birthdateLabel.textContent = 'Date of Birth: ';
+              // add date of birth
+              let birthdateDiv = document.createElement('div');
 
-                      let birthdateSpan = document.createElement('span');
-                      birthdateSpan.textContent = prophet.birthdate;
+              let birthdateLabel = document.createElement('label');
+              birthdateLabel.textContent = 'Date of Birth: ';
 
-                      birthdateDiv.appendChild(birthdateLabel);
-                      birthdateDiv.appendChild(birthdateSpan);
+              let birthdateSpan = document.createElement('span');
+              birthdateSpan.textContent = prophet.birthdate;
 
-                      article.appendChild(birthdateLabel);
-                      article.appendChild(birthdateSpan);
+              birthdateDiv.appendChild(birthdateLabel);
+              birthdateDiv.appendChild(birthdateSpan);
 
-                      // add place of birth
-                      let birthplaceDiv = document.createElement('div');
+              article.appendChild(birthdateLabel);
+              article.appendChild(birthdateSpan);
 
-                      let birthplaceLabel = document.createElement('label');
-                      birthplaceLabel.textContent = 'Place of Birth: ';
+              // add place of birth
+              let birthplaceDiv = document.createElement('div');
 
-                      let birthplaceSpan = document.createElement('span');
-                      birthplaceSpan.textContent = prophet.birthplace;
+              let birthplaceLabel = document.createElement('label');
+              birthplaceLabel.textContent = 'Place of Birth: ';
 
-                      birthplaceDiv.appendChild(birthplaceLabel);
-                      birthplaceDiv.appendChild(birthplaceSpan);
+              let birthplaceSpan = document.createElement('span');
+              birthplaceSpan.textContent = prophet.birthplace;
 
-                      article.appendChild(birthplaceDiv);
+              birthplaceDiv.appendChild(birthplaceLabel);
+              birthplaceDiv.appendChild(birthplaceSpan);
 
-                      // add image
-                      let imageDiv = document.createElement('div');
+              article.appendChild(birthplaceDiv);
 
-                      let image = document.createElement('img');
+              // add image
+              let imageDiv = document.createElement('div');
 
-                      image.setAttribute('src', prophet.imageurl);
-                      image.setAttribute('alt', prophet.name + ' ' + prophet.lastname + ' - ' + prophet.order);
+              let image = document.createElement('img');
 
-                      imageDiv.appendChild(image);
+              image.setAttribute('src', prophet.imageurl);
+              image.setAttribute('alt', prophet.name + ' ' + prophet.lastname + ' - ' + prophet.order);
 
-                      article.appendChild(imageDiv);
+              imageDiv.appendChild(image);
 
-                      document.querySelector('section.prophets').appendChild(article);
-                    }
-                  );
-            });
-          });
-  
+              article.appendChild(imageDiv);
+
+              document.querySelector('section.prophets').appendChild(article);
+            }
+          );
+        });
+  });

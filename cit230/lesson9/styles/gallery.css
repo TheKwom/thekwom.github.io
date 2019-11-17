@@ -1,0 +1,64 @@
+article {
+    margin-bottom: 20px;
+    margin-left: 4%;
+    width: 27em;
+}
+
+article :hover {
+    box-shadow: 0 0 50px #F5F5F5;
+}
+
+body {
+    background-color: #2C2330;
+}
+
+h1 {
+    color: #F5F5F5;
+}
+
+img {
+    height: 20em;
+    width: 27em;
+}
+
+article :hover {
+    box-shadow: 0 0 50px #F5F5F5;
+}
+
+p {
+    color: #F5F5F5;
+    font-family: 'Source Code Pro', monospace;
+    display: none;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* medium */
+@media only screen and (min-width: 32.5em)
+{
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* large */
+@media only screen and (min-width: 60em)
+{
+    article {
+        background-color: #482A57;
+        text-align: center;
+    }
+
+    p {
+        display: inherit;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

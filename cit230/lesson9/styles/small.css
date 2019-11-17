@@ -10,6 +10,13 @@ a:visited {
     text-decoration: none;
 }
 
+article {
+    border: 3px solid #696C70;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    margin: 30px;
+}
+
 .active {
     color: blue;
 }
@@ -66,8 +73,12 @@ iframe {
 }
 img {
     width: 20em;
+    height: 15em;
 }
 
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
 h2 {
     background-color: rgba(232,190,82, 0.6);
     font-family: 'Source Code Pro', monospace;
@@ -78,7 +89,7 @@ h2 {
 }
 
 h4 {
-    font-family: 'Press Start 2P', cursive;;
+    font-family: 'Press Start 2P', cursive;
 }
 
 header {

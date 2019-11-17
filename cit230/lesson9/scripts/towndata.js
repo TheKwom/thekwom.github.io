@@ -20,21 +20,43 @@ fetch(requestURL)
                                 document.querySelector("#fishHavenPopulation")
                                     .textContent = town.currentPopulation;
 
-                                document.querySelector('fishHavenRainFall')
+                                document.querySelector("#fishHavenRainFall")
                                     .textContent = town.averageRainfall;
 
                                 document.querySelector('#fishHavenImage')
                                     .setAttribute('src', 'images/' + town.photo);
-                            }
-                            else if (town.name.toLowerCase() === 'preston') {
+                            } else if (town.name.toLowerCase() === 'preston') {
                                 // Preston
                                 document.querySelector('#prestonYearFounded')
                                     .textContent = town.yearFounded;
-                            }
-                            else if (town.name.toLowerCase() === 'soda springs') {
+
+                                document.querySelector('#prestonMotto')
+                                    .textContent = town.motto;
+
+                                document.querySelector("#prestonPopulation")
+                                    .textContent = town.currentPopulation;
+
+                                document.querySelector("#prestonRainFall")
+                                    .textContent = town.averageRainfall;
+
+                                document.querySelector('#prestonImage')
+                                    .setAttribute('src', 'images/' + town.photo);
+                            } else if (town.name.toLowerCase() === 'soda springs') {
                                 // Soda Springs
                                 document.querySelector('#sodaSpringsYearFounded')
                                     .textContent = town.yearFounded;
+
+                                document.querySelector('#sodaSpringsMotto')
+                                    .textContent = town.motto;
+
+                                document.querySelector("#sodaSpringsPopulation")
+                                    .textContent = town.currentPopulation;
+
+                                document.querySelector("#sodaSpringsRainFall")
+                                    .textContent = town.averageRainfall;
+
+                                document.querySelector('#sodaSpringsImage')
+                                    .setAttribute('src', 'images/' + town.photo);
                             }
                         }
                     );

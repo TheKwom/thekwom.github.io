@@ -26,12 +26,12 @@ fetch(requestURL)
                                 document.querySelector('#fishHavenImage')
                                     .setAttribute('src', 'images/' + town.photo);
                             }
-                            else if (town.name.toLowerCaser() === 'preston') {
+                            else if (town.name.toLowerCase() === 'preston') {
                                 // Preston
                                 document.querySelector('#prestonYearFounded')
                                     .textContent = town.yearFounded;
                             }
-                            else if (town.name.toLowerCaser() === 'soda springs') {
+                            else if (town.name.toLowerCase() === 'soda springs') {
                                 // Soda Springs
                                 document.querySelector('#sodaSpringsYearFounded')
                                     .textContent = town.yearFounded;

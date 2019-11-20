@@ -1,0 +1,40 @@
+body {
+    background-color: #1B1A1C;
+}
+
+h2 {
+    color: #C0C0C0	;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 4em;
+    padding: 60px;
+}
+
+/* -- CLASS SELECTORS -- */
+.heroImage {
+    background-image: url("../images/lightning-thin.jpg"); 
+    max-width: 100%;
+    text-align: center;
+}
+
+.logo {
+    max-width: 50%;
+}
+
+.weatherSummary {
+    background-color: white;
+
+}
+
+@media only screen and (min-width: 32.5em)
+{
+    .logo {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 60em)
+{
+    .logo {
+        width: 25%;
+    }
+}

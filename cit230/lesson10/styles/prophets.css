@@ -1,0 +1,59 @@
+article {
+    background-color: #A69F92;
+    color: #D0D9D6;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: #D0D9D6;
+}
+
+footer {
+    color: #22403A;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: #22403A;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    color: #22403A;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+span {
+    color: #18593B;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 200px;
+    max-height: 250px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+@media only screen and (min-width: 32.5em) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

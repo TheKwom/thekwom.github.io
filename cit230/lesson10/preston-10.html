@@ -5,27 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro&display=swap" rel="stylesheet">
+   <!-- 
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+   -->
+    <link rel="stylesheet" href="styles/sample.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <img class="logo" src="images/veryNewLogo.png" alt="Page Logo">
-        <section id="weatherSummary">
-            <div>
-                <span>Current Temp: </span>
-                <span id="currentTemp"></span>
-            </div>
-            <div>
-                <span>Wind Speed: </span>
-                <span id="windSpeed"></span>
-            </div>
-            <div></div>
-            <span>Wind Chill: </span>
-            <span id="windChill"></span>
-        </section>
     </header>
     <nav>
         <ul class="navigation">
@@ -41,14 +31,29 @@
     <main>
         <section class="heroImage">
             <h2>Preston</h2>
-            <article class="weatherSummary">
-                <h4>Weather Summary</h4>
-                <p>Currently: Sunny</p>
-                <p>High: 76&deg;F</p>
-                <p>Wind Chill: &deg;F</p>
-                <p>Humidity: 69%</p>
-                <p>Wind Speed: 5 mph</p>
-            </article>
+            <section id="weatherSummary">
+                <h3>Weather Summary</h3>
+                <div>
+                    <span>Currently: </span>
+                    <span id="current"></span>
+                </div>
+                <div>
+                    <span>Today's High: </span>
+                    <span id="high"></span>
+                </div>
+                <div>
+                    <span>Wind Speed: </span>
+                    <span id="windSpeed"></span>
+                </div>
+                <div>
+                    <div>
+                        <span>Humidity: </span>
+                        <span id="humidity"></span>
+                    </div>
+                </div>
+                <span>Wind Chill: </span>
+                <span id="windChill"></span>
+            </section>
         </section>
         <!-- ADD HERO IMAGE HERE -->
 

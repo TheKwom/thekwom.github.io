@@ -10,6 +10,7 @@ fetch(apiURL)
             console.log(currentWeather);
 
             let currentTemp = currentWeather.main.temp;
+            let humidity = currentWeather.main.humidity;
             let currentImageIcon = currentWeather.weather[0].icon;
             let currentImage = 'https://openweathermap.org/img/w/' +
                 currentImageIcon +
@@ -17,6 +18,9 @@ fetch(apiURL)
 
             document.querySelector('#current-temp')
                 .textContent = currentTemp;
+
+            document.querySelector('#humidity')
+                .textContent = humidity;
 
             document.querySelector('#imagesrc')
                 .textContent = currentImage;

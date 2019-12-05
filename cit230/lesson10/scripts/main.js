@@ -1,7 +1,7 @@
 var currentDate = new Date();
 var currentDateString;
 
-// get day of week
+// find day of week
 var weekDayNumber = currentDate.getDay();
 
 var daysOfWeek = [

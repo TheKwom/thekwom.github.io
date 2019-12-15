@@ -1,0 +1,89 @@
+{ "sac":
+    {
+    "name": "Sacramento",
+    "address": {
+        "streetAddress": "2110 California Cir.",
+        "city": "Rancho Cordova",
+        "state": "CA",
+        "postalCode": "95742-6415"
+    },
+
+    "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+    ],
+
+    "phoneNumber": "(1)916-357-5870",
+
+    "dedicationDate": "3 September 2006"
+    },
+
+    "oakland": 
+    {
+    "name": "Oakland",
+    "address": {
+        "streetAddress": "4770 Lincoln Ave.",
+        "city": "Oakland",
+        "state": "CA",
+        "postalCode": "95602-2535"
+    },
+
+    "services": [
+        "Clothing rental available",
+        "Cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+    ],
+
+    "phoneNumber": "(1)510-531-3200",
+
+    "dedicationDate": "17 November 1964"
+    },
+
+    "newport": 
+    {
+    "name": "Newport Beach",
+    "address": {
+        "streetAddress": "2300 Bontia Canyon Dr.",
+        "city": "Newport Beach",
+        "state": "CA",
+        "postalCode": "92660-9118"
+    },
+
+    "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "No distribution center nearby"
+    ],
+
+    "phoneNumber": "(1)949-644-1820",
+
+    "dedicationDate": "28 August 2005"
+    },
+
+    "sanDiego": 
+    {
+    "name": "San Diego",
+    "address": {
+        "streetAddress": "7474 Charmant Dr.",
+        "city": "San Diego",
+        "state": "CA",
+        "postalCode": "92122-5000"
+    },
+
+    "services": [
+        "Clothing rental available",
+        "Cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+    ],
+
+    "phoneNumber": "(1)858-622-0991",
+
+    "dedicationDate": "25 April 1993"
+    }
+}
+

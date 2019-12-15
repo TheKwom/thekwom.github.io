@@ -17,6 +17,45 @@ h2 {
 }
 
 /* -- CLASS SELECTORS -- */
+.active {
+    background-color: #C0C0C0;
+}
+
+.article {
+    background-color: #482A57;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    padding: 2%;
+}
+
+.article-link {
+
+}
+
+.gallery-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-link {
+    width: 350px;
+    height: 350px;
+    padding-top: 50px;
+}
+
+.home-link-text {
+    background-color: #C0C0C0;
+    position: absolute;
+    top: 74.5%;
+}
+
 .heroImage {
     background-image: url("../images/lightning-thin.jpg"); 
     height: 18em;
@@ -72,6 +111,13 @@ h2 {
 
 @media only screen and (min-width: 32.5em)
 {
+
+    .gallery-img {
+        width: 40%;
+        float: left;
+        margin: 1.66%;
+    }
+
     .logo {
         width: 40%;
     }
@@ -94,6 +140,13 @@ h2 {
 
 @media only screen and (min-width: 60em)
 {
+
+    .gallery-img {
+        width: 30%;
+        float: left;
+        margin: 1.66%;
+    }
+
     .logo {
         width: 25%;
     }

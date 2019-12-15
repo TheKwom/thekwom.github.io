@@ -9,6 +9,11 @@ body {
     background-color: #C0C0C0;
 }
 
+footer {
+    background-color: #482A57;
+    display: flex;
+}
+
 h2 {
     color: #C0C0C0	;
     font-family: 'Source Code Pro', monospace;
@@ -17,9 +22,10 @@ h2 {
 }
 
 iframe {
+    display: flex;
+    float: right;
     width: 20%;
     height: 20%;
-    align-content: center;
 }
 
 /* -- CLASS SELECTORS -- */

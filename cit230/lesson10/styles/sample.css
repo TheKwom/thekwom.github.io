@@ -16,6 +16,12 @@ h2 {
     padding: 60px;
 }
 
+iframe {
+    width: 20%;
+    height: 20%;
+    align-content: center;
+}
+
 /* -- CLASS SELECTORS -- */
 .active {
     background-color: #C0C0C0;
@@ -30,6 +36,10 @@ h2 {
 
 .article-link {
 
+}
+
+.contact {
+    background-color: #482A57;
 }
 
 .gallery-img {

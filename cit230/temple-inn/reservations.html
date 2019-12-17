@@ -1,165 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Temple Inn & Suites</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Mukta|Overpass+Mono|Poiret+One&display=swap" rel="stylesheet">
-  </head>
+
+<head>
+  <title>Temple Inn & Suites</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Mukta|Overpass+Mono|Poiret+One&display=swap" rel="stylesheet">
+</head>
+
 <body>
   <div id="content">
     <header>
-        <div>
-          <img src="images/logo.png" alt="company logo" class="logo">
-        </div>
-        <nav> 
-          <ul>
-            <li><a href="index.html" id="home">Home</a></li>
-            <li><a href="temples.html" id="aboutMe">Temples</a></li>
-            <li><a href="reservations.html" id="pageThree">Reservations</a></li>
-            <li><a href="services.html" id="pageFour">Services</a></li>
-          </ul>
-        </nav>
+      <div>
+        <img src="images/logo.png" alt="company logo" class="logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href="temples.html" id="aboutMe">Temples</a></li>
+          <li><a href="reservations.html" id="pageThree">Reservations</a></li>
+          <li><a href="services.html" id="pageFour">Services</a></li>
+        </ul>
+      </nav>
     </header>
-    
+
     <main>
-            <h1>Reserve a Room</h1>
-            <form>
-            <label for="name">First Name: </label>
-                <input type="text" name="firstName" id="name" placeholder="John" required>
-            <label for="name">Last Name: </label>
-                <input type="text" name="lastName" id="name" placeholder="Smith" required>
-            <div>
-            <label for="gender">Male</label>
-                <input type="radio" name="gender" id="gender">
-            <label for="gender">Female</label>
-                <input type="radio" name="gender" id="gender">
-            </div>
-            <div>
-            <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="your email" required>
-            <label for="phone">Phone Number: </label>
-                <input type="phone" name="phone" id="phone" placeholder="your phone number" required>
-            </div>
-            <label for="checkin">Check in Date: </label>
-                <select name="checkin">
-                    <option value="month" disabled selected="month" ="">Month</option>
-                    <option value="January">January</option>
-                    <option value="February">February</option>
-                    <option value="March">March</option>
-                    <option value="April">April</option>
-                    <option value="May">May</option>
-                    <option value="June">June</option>
-                    <option value="July">July</option>
-                    <option value="August">August</option>
-                    <option value="September">September</option>
-                    <option value="October">October</option>
-                    <option value="November">November</option>
-                    <option value="December">December</option>
-                </select>
-                <select name="checkin">
-                    <option value="day" disabled selected="day" ="">Day</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="6">7</option>
-                    <option value="6">8</option>
-                    <option value="6">9</option>
-                    <option value="6">10</option>
-                    <option value="6">11</option>
-                    <option value="6">12</option>
-                    <option value="6">13</option>
-                    <option value="6">14</option>
-                    <option value="6">15</option>
-                    <option value="6">16</option>
-                    <option value="6">17</option>
-                    <option value="6">18</option>
-                    <option value="6">19</option>
-                    <option value="6">20</option>
-                    <option value="6">21</option>
-                    <option value="6">22</option>
-                    <option value="6">23</option>
-                    <option value="6">24</option>
-                    <option value="6">25</option>
-                    <option value="6">26</option>
-                    <option value="6">27</option>
-                    <option value="6">28</option>
-                    <option value="6">29</option>
-                    <option value="6">30</option>
-                    <option value="6">31</option>
-                </select>
-            </div>
-            <div>
-                <label for="checkout">Check out Date: </label>
-                <select name="checkout">
-                    <option value="month" disabled selected="month" ="">Month</option>
-                    <option value="January">January</option>
-                    <option value="February">February</option>
-                    <option value="March">March</option>
-                    <option value="April">April</option>
-                    <option value="May">May</option>
-                    <option value="June">June</option>
-                    <option value="July">July</option>
-                    <option value="August">August</option>
-                    <option value="September">September</option>
-                    <option value="October">October</option>
-                    <option value="November">November</option>
-                    <option value="December">December</option>
-                </select>
-                <select name="checkout">
-                    <option value="day" disabled selected="day" ="">Day</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="6">7</option>
-                    <option value="6">8</option>
-                    <option value="6">9</option>
-                    <option value="6">10</option>
-                    <option value="6">11</option>
-                    <option value="6">12</option>
-                    <option value="6">13</option>
-                    <option value="6">14</option>
-                    <option value="6">15</option>
-                    <option value="6">16</option>
-                    <option value="6">17</option>
-                    <option value="6">18</option>
-                    <option value="6">19</option>
-                    <option value="6">20</option>
-                    <option value="6">21</option>
-                    <option value="6">22</option>
-                    <option value="6">23</option>
-                    <option value="6">24</option>
-                    <option value="6">25</option>
-                    <option value="6">26</option>
-                    <option value="6">27</option>
-                    <option value="6">28</option>
-                    <option value="6">29</option>
-                    <option value="6">30</option>
-                    <option value="6">31</option>
-                </select>
-            </div>
-            <div>
-                <label for="agree">I agree to the terms and conditions </label>
-                    <input type="checkbox" name="agree" id="agree" required>
-            </div>
-            <div>
-                <button>Submit</button>
-            </div>
-            </form>
+      <h1>Reserve a Room</h1>
+      <form>
+        <label for="name">First Name: </label>
+        <input type="text" name="firstName" id="name" placeholder="John" required>
+        <label for="name">Last Name: </label>
+        <input type="text" name="lastName" id="name" placeholder="Smith" required>
+        <div>
+          <label for="homeState">Your Home State: </label>
+          <input type="text" name="homeState" id="homeSate" placeholder="Utah">
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" placeholder="your email" required>
+          <label for="phone">Phone Number: </label>
+          <input type="phone" name="phone" id="phone" placeholder="your phone number" required>
+        </div>
+        <div>
+          <label for="stayLocation">Where you wish to stay: </label>
+          <select name="stayLocation" id="stayLocation">
+            <option value="Newport">Newport</option>
+            <option value="Oakland">Oakland</option>
+            <option value="Sacramento">Sacramento</option>
+            <option value="San Diego">San Diego</option>
+          </select>
+        </div>
+        <div>
+          <label for="room">Which room you wish to stay in: </label>
+          <select name="room" id="room">
+          <option value="Single Bed - King">Single Bed - King</option>
+          <option value="Single Bed - Queen">Single Bed - Queen</option>
+          <option value="Two Bed - Queen">Two Bed - Queen</option>
+          </select>
+        </div>
+        <div>
+          <label for="roomCount">How many rooms you need: </label>
+          <select name="roomCount" id="roomCount">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        </div>
+        <div>
+          <label for="checkin">Check in Date: </label>
+          <select name="checkin">
+            <option value="month" disabled selected="month"="">Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+          <select name="checkin">
+            <option value="day" disabled selected="day"="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+        </div>
+        <div>
+          <label for="checkout">Check out Date: </label>
+          <select name="checkout">
+            <option value="month" disabled selected="month"="">Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+          <select name="checkout">
+            <option value="day" disabled selected="day"="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+        </div>
+        <div>
+          <label for="comments">Comments:</label>
+          <textarea name="comments" id="comments" cols="30" rows="6"></textarea>
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
       <footer>
-          <p id="botAd" class="lightBlueColor">&copy; 2019 - Michael Davis </p>
-          <div>
-            <a href="https://www.linkedin.com/in/michael-davis-0b3760171/" target="_blank"><img src="https://cdn.glitch.com/a34cb59c-1356-4279-b963-8e3afc5ff072%2FAsset%204.png?v=1568739001438" alt="Linkd In Link" class="icon"></a>
-            <a href="https://www.instagram.com/kwomcast/?hl=en" target="_blank"><img src="https://cdn.glitch.com/a34cb59c-1356-4279-b963-8e3afc5ff072%2FAsset%203.png?v=1561148186711" alt="Instagram Link" class="icon"></a>
-          </div>
+        <p id="botAd" class="lightBlueColor">&copy; 2019 - Michael Davis </p>
+        <div>
+          <a href="https://www.linkedin.com/in/michael-davis-0b3760171/" target="_blank"><img
+              src="https://cdn.glitch.com/a34cb59c-1356-4279-b963-8e3afc5ff072%2FAsset%204.png?v=1568739001438"
+              alt="Linkd In Link" class="icon"></a>
+          <a href="https://www.instagram.com/kwomcast/?hl=en" target="_blank"><img
+              src="https://cdn.glitch.com/a34cb59c-1356-4279-b963-8e3afc5ff072%2FAsset%203.png?v=1561148186711"
+              alt="Instagram Link" class="icon"></a>
+        </div>
       </footer>
     </main>
   </div>
 </body>
+
 </html>

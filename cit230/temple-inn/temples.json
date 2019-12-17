@@ -67,6 +67,8 @@
 
     "dedicationDate": "17 November 1964",
 
+    "ordinanceSchedule": "5:30 AM - 5:00 PM Walk-ins and Appointments",
+
     "sessionSchedule": [
         "7:00 AM",
         "8:30 AM",
@@ -81,10 +83,10 @@
 
     "templeClosure": [
         "1 January 2020",
-        "4 February 2020",
+        "9 March - 23 March 2020",
         "4 April 2020",
         "4 July 2020",
-        "4 August 2020 - 17 August 2020",
+        "14 September  - 28 September 2020",
         "3 October 2020",
         "25 November - 26 November 2020",
         "24 December - 25 December 2020",
@@ -113,6 +115,8 @@
 
     "dedicationDate": "28 August 2005",
 
+    "ordinanceSchedule": "8:00 AM - 4:00 PM Walk-ins Only",
+
     "sessionSchedule": [
         "7:00 AM",
         "8:30 AM",
@@ -127,10 +131,10 @@
 
     "templeClosure": [
         "1 January 2020",
-        "4 February 2020",
+        "3 February - 17 February 2020",
         "4 April 2020",
         "4 July 2020",
-        "4 August 2020 - 17 August 2020",
+        "27 July  - 10 August 2020",
         "3 October 2020",
         "25 November - 26 November 2020",
         "24 December - 25 December 2020",
@@ -159,6 +163,8 @@
 
     "dedicationDate": "25 April 1993",
 
+    "ordinanceSchedule": "8:00 AM - 5:00 PM Walk-ins and Appointments",
+
     "sessionSchedule": [
         "7:00 AM",
         "8:30 AM",
@@ -173,10 +179,10 @@
 
     "templeClosure": [
         "1 January 2020",
-        "4 February 2020",
+        "16 March - 30 March 2020",
         "4 April 2020",
         "4 July 2020",
-        "4 August 2020 - 17 August 2020",
+        "14 September - 28 September 2020",
         "3 October 2020",
         "25 November - 26 November 2020",
         "24 December - 25 December 2020",

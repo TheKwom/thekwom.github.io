@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Temple Inn & Suites</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Mukta|Overpass+Mono|Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="content">
+    <header>
+      <div>
+        <img src="images/logo.png" alt="company logo" class="logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href="temples.html" id="aboutMe">Temples</a></li>
+          <li><a href="reservations.html" id="pageThree">Reservations</a></li>
+          <li><a href="services.html" id="pageFour">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+            <body>
+                <div>
+                    <h2>Temple Inn & Suites Contact Info</h2>
+                    <div>
+                        <span class="bold">Our Number: </span>
+                        <span>(909)909-0909</span>
+                    </div>
+                    <div>
+                        <span class="bold">Our Address: </span>
+                        <span>4800 Montgomery Ln #300, Bethesda, MD 20814</span>
+                    </div>
+                </div>
+                    <h4>Send us a message</h4>
+                    <div id="feedback"></div>
+                    <form action="" method="post">
+                      <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                      <label for="mail">E-mail:</label>
+                      <input type="email" id="mail" name="user_mail" required="required">
+                    </div>
+                      <div>
+                      <label for="phone">Phone:</label>
+                      <input type="tel" id="phone" name="user_phone">
+                    </div>
+                    <div>
+                      <label for="msg">Message:</label>
+                      <textarea id="msg" name="user_message"></textarea>
+                  </div>
+                      <div class="button">
+                        <button type="submit">
+                    Send your message
+                        </button>
+                </div>
+                
+                    </form>
+                    <script>
+                    // get the feedback div element so we can do something with it.
+                    const feedbackElement = document.getElementById('feedback');
+                    // get the form so we can read what was entered in it.
+                    const formElement = document.forms[0];
+                    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                    formElement.addEventListener('submit', function(e) {
+                        // stop the form from doing the default action
+                        e.preventDefault();
+                        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                        // make the feedback element visible.
+                        feedbackElement.style.display = "block";
+                        // add a class to move everything down so our message doesn't cover it.
+                        document.body.classList.toggle('moveDown');
+                    });
+                </script>
+                  </body>
+      <footer>
+        <p id="botAd" class="lightBlueColor">&copy; 2019 - Michael Davis </p>
+        <div>
+          <a href="https://www.linkedin.com/in/michael-davis-0b3760171/" target="_blank"><img
+              src="https://cdn.glitch.com/a34cb59c-1356-4279-b963-8e3afc5ff072%2FAsset%204.png?v=1568739001438"
+              alt="Linkd In Link" class="icon"></a>
+          <a href="https://www.instagram.com/kwomcast/?hl=en" target="_blank"><img
+              src="https://cdn.glitch.com/a34cb59c-1356-4279-b963-8e3afc5ff072%2FAsset%203.png?v=1561148186711"
+              alt="Instagram Link" class="icon"></a>
+        </div>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>

@@ -17,7 +17,33 @@
 
     "phoneNumber": "(1)916-357-5870",
 
-    "dedicationDate": "3 September 2006"
+    "dedicationDate": "3 September 2006",
+
+    "ordinanceSchedule": "7:00 AM - 9:00 PM Walk-ins and Appointments",
+
+    "sessionSchedule": [
+        "7:00 AM",
+        "8:30 AM",
+        "10:00 AM",
+        "12:00 PM",
+        "1:30 PM",
+        "3:00 PM",
+        "5:00 PM",
+        "6:30 PM",
+        "8:00 PM"
+    ],
+
+    "templeClosure": [
+        "1 January 2020",
+        "4 February 2020",
+        "4 April 2020",
+        "4 July 2020",
+        "4 August 2020 - 17 August 2020",
+        "3 October 2020",
+        "25 November - 26 November 2020",
+        "24 December - 25 December 2020",
+        "31 December 2020"
+    ]
     },
 
     "oakland": 
@@ -39,7 +65,31 @@
 
     "phoneNumber": "(1)510-531-3200",
 
-    "dedicationDate": "17 November 1964"
+    "dedicationDate": "17 November 1964",
+
+    "sessionSchedule": [
+        "7:00 AM",
+        "8:30 AM",
+        "10:00 AM",
+        "12:00 PM",
+        "1:30 PM",
+        "3:00 PM",
+        "5:00 PM",
+        "6:30 PM",
+        "8:00 PM"
+    ],
+
+    "templeClosure": [
+        "1 January 2020",
+        "4 February 2020",
+        "4 April 2020",
+        "4 July 2020",
+        "4 August 2020 - 17 August 2020",
+        "3 October 2020",
+        "25 November - 26 November 2020",
+        "24 December - 25 December 2020",
+        "31 December 2020"
+    ]
     },
 
     "newport": 
@@ -61,7 +111,31 @@
 
     "phoneNumber": "(1)949-644-1820",
 
-    "dedicationDate": "28 August 2005"
+    "dedicationDate": "28 August 2005",
+
+    "sessionSchedule": [
+        "7:00 AM",
+        "8:30 AM",
+        "10:00 AM",
+        "12:00 PM",
+        "1:30 PM",
+        "3:00 PM",
+        "5:00 PM",
+        "6:30 PM",
+        "8:00 PM"
+    ],
+
+    "templeClosure": [
+        "1 January 2020",
+        "4 February 2020",
+        "4 April 2020",
+        "4 July 2020",
+        "4 August 2020 - 17 August 2020",
+        "3 October 2020",
+        "25 November - 26 November 2020",
+        "24 December - 25 December 2020",
+        "31 December 2020"
+    ]
     },
 
     "sanDiego": 
@@ -83,7 +157,31 @@
 
     "phoneNumber": "(1)858-622-0991",
 
-    "dedicationDate": "25 April 1993"
+    "dedicationDate": "25 April 1993",
+
+    "sessionSchedule": [
+        "7:00 AM",
+        "8:30 AM",
+        "10:00 AM",
+        "12:00 PM",
+        "1:30 PM",
+        "3:00 PM",
+        "5:00 PM",
+        "6:30 PM",
+        "8:00 PM"
+    ],
+
+    "templeClosure": [
+        "1 January 2020",
+        "4 February 2020",
+        "4 April 2020",
+        "4 July 2020",
+        "4 August 2020 - 17 August 2020",
+        "3 October 2020",
+        "25 November - 26 November 2020",
+        "24 December - 25 December 2020",
+        "31 December 2020"
+    ]
     }
 }
 

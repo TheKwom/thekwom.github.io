@@ -1,0 +1,86 @@
+@import 'partials/reset';
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // responsive grid and media queries
+
+// color palette - these colors will be the color swatches of the Colors section
+
+$color-1: #070B0D; // Cornflower Blue - Action color
+$color-2: #7698A6; // Dark Blue
+$color-3: #516973; // Red
+$color-4: #2D3B40; // light grey
+$color-5: #9BB5BF; // white
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3; // red
+
+// fonts
+$primary-font: 'Slabo 27px', serif;
+$secondary-font: 'Pacifico', cursive;
+
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+
+@import 'partials/background';
+
+/* -------------------------------- 
+
+xPatterns
+
+-------------------------------- */
+
+@import 'partials/patterns';
+
+/* -------------------------------- 
+
+xNavigation 
+
+-------------------------------- */
+
+@import 'partials/navigation';
+
+/* -------------------------------- 
+
+xPage title 
+
+-------------------------------- */
+
+@import 'partials/page-title';
+
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+
+@import 'partials/typography';
+
+/* -------------------------------- 
+
+xButtons 
+
+-------------------------------- */
+
+@import 'partials/buttons';
+
+/* -------------------------------- 
+
+xIcons 
+
+-------------------------------- */
+
+@import 'partials/icons';
+
+/* -------------------------------- 
+
+xForm 
+
+-------------------------------- */
+
+@import 'partials/form';
+
+@import 'partials/basic-style';
